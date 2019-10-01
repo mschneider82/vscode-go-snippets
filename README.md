@@ -31,16 +31,16 @@ taken from [SliceTricks](https://github.com/golang/go/wiki/SliceTricks)
 
 | prefix        | description                                    |
 | :------------ | :--------------------------------------------- |
-| range.map     | range map                                      |
-| range.arr     | range array, slices                            |
-| range.str     | range interate over unicode points,not bytes   |
-| slice.av      | Slice Append Vector                            |
-| slice.copy    | Slice Copy                                     |
-| slice.cut     | a = append(a[:i], a[j:]...)                    |
-| slice.delete  | a = append(a[:i], a[i+1:]...)                  |
-| slice.extend  | a = append(a, make([]T, j)...)                 |
-| slice.insert  | a = append(a[:i], append([]T{x}, a[i:]...)...) |
-| slice.unshift | a = append([]T{x}, a...)                       |
-| slice.push    | a = append(a, x)                               |
-| slice.pop     | x, a = a[0], a[1:]                             |
-| slice.popback | x, a = a[len(a) -1], a[:len(a) -1]             |
+| range-map     | range map                                      |
+| range-arr     | range array, slices                            |
+| range-str     | range interate over unicode points,not bytes   |
+| slice-av      | Slice Append Vector                            |
+| slice-copy    | Slice Copy                                     |
+| slice-cut     | a = append(a[:i], a[j:]...)                    |
+| slice-delete  | a = append(a[:i], a[i+1:]...)                  |
+| slice-extend  | a = append(a, make([]T, j)...)                 |
+| slice-insert  | a = append(a[:i], append([]T{x}, a[i:]...)...) |
+| slice-unshift | a = append([]T{x}, a...)                       |
+| slice-push    | a = append(a, x)                               |
+| slice-pop     | x, a = a[0], a[1:]                             |
+| slice-popback | x, a = a[len(a) -1], a[:len(a) -1]             |
