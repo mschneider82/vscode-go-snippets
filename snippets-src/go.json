@@ -1,41 +1,41 @@
 {
-    "range.map":{
+    "range-map":{
         "description": "range map"
     },
-    "range.arr":{
+    "range-arr":{
         "description": "range array, slices"
     },
-    "range.str":{
+    "range-str":{
         "description": "range interate over unicode points,not bytes"
     },
-    "slice.av":{
+    "slice-av":{
         "description": "Slice Append Vector"
     },
-    "slice.copy":{
+    "slice-copy":{
         "description": "Slice Copy"
     },
-    "slice.cut":{
+    "slice-cut":{
         "body": "a = append(a[:i], a[j:]...)"
     },
-    "slice.delete":{
+    "slice-delete":{
         "body": "a = append(a[:i], a[i+1:]...)"
     },
-    "slice.extend":{
+    "slice-extend":{
         "body": "a = append(a, make([]T, j)...)"
     },
-    "slice.insert":{
+    "slice-insert":{
         "body": "a = append(a[:i], append([]T{x}, a[i:]...)...)"
     },
-    "slice.unshift":{
+    "slice-unshift":{
         "body": "a = append([]T{x}, a...)"
     },
-    "slice.push":{
+    "slice-push":{
         "body": "a = append(a, x)"
     },
-    "slice.pop":{
+    "slice-pop":{
         "body": "x, a = a[0], a[1:]"
     },
-    "slice.popback":{
+    "slice-popback":{
         "body": "x, a = a[len(a) -1], a[:len(a) -1]"
     }
 }
